@@ -1,6 +1,6 @@
 {
   "project_info": {
-    "project_number": "148163689444",
+    "project_number": "1030628495434",
     "firebase_url": "https://kalyonesportschat.firebaseio.com",
     "project_id": "kalyonesportschat",
     "storage_bucket": "kalyonesportschat.appspot.com"
@@ -8,45 +8,38 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:148163689443:android:6fff54e6b164d01e",
+        "mobilesdk_app_id": "1:1030628495434:android:9e05c3f6f31a3c15bb96b3",
         "android_client_info": {
           "package_name": "com.pasamapp.kalyonesportschat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "148163689443-8c625flg8j5ssg8cou9rkbkkdo0sppr6.apps.googleusercontent.com",
+          "client_id": "1030628495434-78t8g6bghqqq0mvi9r20u3dj74a0k40u.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.pasamapp.kalyonesportschat",
-            "certificate_hash": "b7c5b8560bad7fb5d5b0e6350fce6f19f2ddf596"
+            "certificate_hash": "d53ee18cbb9ed20b5d6153da8c8d344478cacca7"
           }
         },
         {
-          "client_id": "148163689443-tgf7ibkc434fkgjncbspvg7b6300q6l0.apps.googleusercontent.com",
+          "client_id": "1030628495434-qma8n1hckt4jttgnklicqoecqf8mgvil.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC1FN4CtS9drupV7ZMhVCxjaRXwb4_fp5s"
+          "current_key": "AIzaSyBaHWepb7Af9H8hHpn9qE0WlxJWbrD5SLk"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "148163689443-tgf7ibkc434fkgjncbspvg7b6300q6l0.apps.googleusercontent.com",
+              "client_id": "1030628495434-qma8n1hckt4jttgnklicqoecqf8mgvil.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

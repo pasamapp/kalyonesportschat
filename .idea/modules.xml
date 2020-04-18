@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/autoplayvideorecyclerview/autoplayvideorecyclerview.iml" filepath="$PROJECT_DIR$/autoplayvideorecyclerview/autoplayvideorecyclerview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/instakotlinappp.iml" filepath="$PROJECT_DIR$/instakotlinappp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="kalyonesportschat/app" />
+      <module fileurl="file://$PROJECT_DIR$/autoplayvideorecyclerview/autoplayvideorecyclerview.iml" filepath="$PROJECT_DIR$/autoplayvideorecyclerview/autoplayvideorecyclerview.iml" group="kalyonesportschat/autoplayvideorecyclerview" />
+      <module fileurl="file://$PROJECT_DIR$/kalyonesportschat.iml" filepath="$PROJECT_DIR$/kalyonesportschat.iml" group="kalyonesportschat" />
     </modules>
   </component>
 </project>
