@@ -18,7 +18,7 @@ import java.io.File
 import java.io.FileOutputStream
 
 /**
- * Created by Emre on 28.02.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class CameraFragment : Fragment() {
 
@@ -114,7 +114,7 @@ class CameraFragment : Fragment() {
         kameraIzniVerildiMi=izinDurumu.kameraIzniVerildiMi!!
     }
 
-    override fun onAttach(context: Context?) {
+    override fun onAttach(context: Context) {
         super.onAttach(context)
         EventBus.getDefault().register(this)
     }

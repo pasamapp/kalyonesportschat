@@ -5,7 +5,7 @@ import androidx.appcompat.widget.AppCompatImageView
 import android.util.AttributeSet
 
 /**
- * Created by Emre on 24.05.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class GridImageView : AppCompatImageView {
 

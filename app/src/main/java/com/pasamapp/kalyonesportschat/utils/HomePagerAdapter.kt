@@ -6,7 +6,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 import android.view.ViewGroup
 
 /**
- * Created by Emre on 28.02.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class HomePagerAdapter(fm: FragmentManager): FragmentPagerAdapter(fm) {
 

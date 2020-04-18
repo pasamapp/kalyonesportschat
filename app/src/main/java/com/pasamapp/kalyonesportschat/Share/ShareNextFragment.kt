@@ -150,7 +150,7 @@ class ShareNextFragment : Fragment() {
         dosyaTuruResimMi = secilenResim!!.dosyaTuruResimMi
     }
 
-    override fun onAttach(context: Context?) {
+    override fun onAttach(context: Context) {
         super.onAttach(context)
         EventBus.getDefault().register(this)
     }
@@ -192,7 +192,7 @@ class ShareNextFragment : Fragment() {
         }
 
         uploadTask.addOnProgressListener(object : OnProgressListener<UploadTask.TaskSnapshot> {
-            override fun onProgress(p0: UploadTask.TaskSnapshot?) {
+            override fun onProgress(p0: UploadTask.TaskSnapshot) {
                 var progress = 100.0 * p0!!.bytesTransferred / p0!!.totalByteCount
                 //Log.e("HATA", "ILERLEME : " + progress)
                 dialogYukleniyor.tvBilgi.text = "%" + progress.toInt().toString() + " yüklendi.."

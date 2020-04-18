@@ -1,7 +1,7 @@
 package com.pasamapp.kalyonesportschat.VideoRecyclerView.view;
 
 /**
- * Created by HoangAnhTuan on 1/21/2018.
+ * Created by Pasam on 18.04.2020.
  */
 
 public class Video  {

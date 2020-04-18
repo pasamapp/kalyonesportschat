@@ -90,8 +90,8 @@ class TelefonKoduGirFragment : Fragment() {
                 progressBar.visibility=View.INVISIBLE
             }
 
-            override fun onCodeSent(verificationId: String?,
-                                    token: PhoneAuthProvider.ForceResendingToken?) {
+            override fun onCodeSent(verificationId: String,
+                                    token: PhoneAuthProvider.ForceResendingToken) {
                 verificationID =verificationId!!
                 progressBar.visibility=View.VISIBLE
                 //Log.e("HATA","oncodesent çalıştı")
@@ -107,7 +107,7 @@ class TelefonKoduGirFragment : Fragment() {
 
     }
 
-    override fun onAttach(context: Context?) {
+    override fun onAttach(context: Context) {
         super.onAttach(context)
         EventBus.getDefault().register(this)
     }

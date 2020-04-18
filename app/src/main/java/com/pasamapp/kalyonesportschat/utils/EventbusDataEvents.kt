@@ -4,7 +4,7 @@ import com.pasamapp.kalyonesportschat.Models.UserPosts
 import com.pasamapp.kalyonesportschat.Models.Users
 
 /**
- * Created by Emre on 1.05.2018.
+ * Created by Pasam on 18.04.2020.
  */
 
 class EventbusDataEvents {

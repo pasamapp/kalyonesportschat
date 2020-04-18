@@ -13,7 +13,7 @@ import com.pasamapp.kalyonesportschat.R
 import kotlinx.android.synthetic.main.tek_sutun_grid_resim.view.*
 
 /**
- * Created by Emre on 24.05.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class ShareActivityGridViewAdapter(context: Context?, resource: Int, var klasordekiDosyalar: ArrayList<String>) : ArrayAdapter<String>(context, resource, klasordekiDosyalar) {
 

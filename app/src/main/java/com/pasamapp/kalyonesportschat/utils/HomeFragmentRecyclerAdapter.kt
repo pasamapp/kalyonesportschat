@@ -3,7 +3,6 @@ package com.pasamapp.kalyonesportschat.utils
 import android.content.Context
 import android.content.Intent
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -20,14 +19,14 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.hoanganhtuan95ptit.autoplayvideorecyclerview.VideoHolder
+import com.pasamapp.autoplayvideorecyclerview.VideoHolder
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.tek_post_recycler_item.view.*
 import org.greenrobot.eventbus.EventBus
 import java.util.*
 
 /**
- * Created by Emre on 5.06.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class HomeFragmentRecyclerAdapter(var context: Context, var tumGonderiler: ArrayList<UserPosts>) : androidx.recyclerview.widget.RecyclerView.Adapter<HomeFragmentRecyclerAdapter.MyViewHolder>() {
 

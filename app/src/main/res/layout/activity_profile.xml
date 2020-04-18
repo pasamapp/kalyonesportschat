@@ -338,7 +338,7 @@
                 </com.google.android.material.appbar.CollapsingToolbarLayout>
             </com.google.android.material.appbar.AppBarLayout>
 
-            <com.hoanganhtuan95ptit.autoplayvideorecyclerview.AutoPlayVideoRecyclerView
+            <com.pasamapp.autoplayvideorecyclerview.AutoPlayVideoRecyclerView
                 android:id="@+id/profileRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

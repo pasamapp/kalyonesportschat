@@ -18,7 +18,7 @@ import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.fragment_messages.view.*
 
 /**
- * Created by Emre on 28.02.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class MessagesFragment : Fragment() {
 

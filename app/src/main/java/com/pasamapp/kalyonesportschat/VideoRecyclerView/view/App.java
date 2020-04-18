@@ -6,7 +6,7 @@ import android.content.Context;
 import com.danikula.videocache.HttpProxyCacheServer;
 
 /**
- * Created by HoangAnhTuan on 1/21/2018.
+ * Created by Pasam on 18.04.2020.
  */
 
 public class App extends Application {

@@ -1,7 +1,7 @@
 package com.pasamapp.kalyonesportschat.Models
 
 /**
- * Created by Emre on 5.06.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class UserPosts {
 

@@ -1,4 +1,4 @@
-package com.hoanganhtuan95ptit.autoplayvideorecyclerview;
+package com.pasamapp.autoplayvideorecyclerview;
 
 import android.app.Activity;
 import android.content.Context;
@@ -24,7 +24,7 @@ import io.reactivex.schedulers.Schedulers;
 import io.reactivex.subjects.PublishSubject;
 
 /**
- * Created by HoangAnhTuan on 1/21/2018.
+ * Created by Pasam on 18.04.2020.
  * auto play video
  */
 

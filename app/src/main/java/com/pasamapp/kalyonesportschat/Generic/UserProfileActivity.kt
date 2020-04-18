@@ -6,8 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.FragmentManager
 import androidx.core.content.ContextCompat
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import android.view.View
 import com.pasamapp.kalyonesportschat.Login.LoginActivity
 import com.pasamapp.kalyonesportschat.Models.Posts
@@ -20,8 +18,7 @@ import com.pasamapp.kalyonesportschat.utils.*
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.*
-import com.hoanganhtuan95ptit.autoplayvideorecyclerview.AutoPlayVideoRecyclerView
-import com.nostra13.universalimageloader.core.ImageLoader
+import com.pasamapp.autoplayvideorecyclerview.AutoPlayVideoRecyclerView
 import kotlinx.android.synthetic.main.activity_user_profile.*
 import org.greenrobot.eventbus.EventBus
 

@@ -24,11 +24,12 @@ import androidx.annotation.RequiresApi
 
 
 /**
- * Created by Emre on 14.07.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class MyFirebaseMessagingService : FirebaseMessagingService() {
 
-    override fun onMessageReceived(p0: RemoteMessage?) {
+    @RequiresApi(Build.VERSION_CODES.M)
+    override fun onMessageReceived(p0: RemoteMessage) {
 
         Log.e("EEE","BURADA1")
 
@@ -81,6 +82,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     }
 
 
+    @RequiresApi(Build.VERSION_CODES.M)
     private fun yeniMesajBildiriminiGoster(bildirimBaslik: String?, bildirimBody: String?, gidilecekUserID: String?) {
 
         var pendingIntent=Intent(this,HomeActivity::class.java)
@@ -190,7 +192,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
     }
 
-    override fun onNewToken(token: String?) {
+    override fun onNewToken(token: String) {
         var yeniToken=token!!
         yeniTokenVeritabaninaKaydet(yeniToken)
     }

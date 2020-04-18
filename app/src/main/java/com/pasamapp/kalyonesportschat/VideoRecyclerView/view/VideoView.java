@@ -13,7 +13,7 @@ import com.pasamapp.kalyonesportschat.R;
 
 
 /**
- * Created by tuanha00 on 1/22/2018.
+ * Created by Pasam on 18.04.2020.
  */
 
 public class VideoView extends RelativeLayout implements TextureView.SurfaceTextureListener {

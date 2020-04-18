@@ -22,7 +22,7 @@ import kotlin.Comparator
 import kotlin.collections.ArrayList
 
 /**
- * Created by Emre on 13.07.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class TakipNewsRecyclerAdapter(var context: Context, var takipcileriminTumBildirimleri: ArrayList<BildirimModel>) : androidx.recyclerview.widget.RecyclerView.Adapter<androidx.recyclerview.widget.RecyclerView.ViewHolder>() {
 

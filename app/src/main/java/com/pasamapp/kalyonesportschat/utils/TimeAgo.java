@@ -1,7 +1,7 @@
 package com.pasamapp.kalyonesportschat.utils;
 
 /**
- * Created by Emre on 6.06.2018.
+ * Created by Pasam on 18.04.2020.
  */
 
 public class TimeAgo {

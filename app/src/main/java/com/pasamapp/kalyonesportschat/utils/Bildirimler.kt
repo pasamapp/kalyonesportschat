@@ -4,7 +4,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 
 /**
- * Created by Emre on 8.07.2018.
+ * Created by Pasam on 18.04.2020.
  */
 object Bildirimler {
 

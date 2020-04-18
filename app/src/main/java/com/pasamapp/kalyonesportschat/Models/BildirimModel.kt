@@ -1,7 +1,7 @@
 package com.pasamapp.kalyonesportschat.Models
 
 /**
- * Created by Emre on 8.07.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class BildirimModel {
 

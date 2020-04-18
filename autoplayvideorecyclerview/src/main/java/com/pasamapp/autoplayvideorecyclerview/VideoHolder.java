@@ -1,10 +1,10 @@
-package com.hoanganhtuan95ptit.autoplayvideorecyclerview;
+package com.pasamapp.autoplayvideorecyclerview;
 
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by tuanha00 on 1/23/2018.
+ * Created by Pasam on 18.04.2020.
  */
 
 public abstract class VideoHolder extends RecyclerView.ViewHolder {

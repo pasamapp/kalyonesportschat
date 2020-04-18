@@ -27,7 +27,7 @@ import java.util.*
 
 
 /**
- * Created by Emre on 3.06.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class ProfilePostGridRecyclerAdapter(var kullaniciPostlari:ArrayList<UserPosts>, var myContext:Context): androidx.recyclerview.widget.RecyclerView.Adapter<ProfilePostGridRecyclerAdapter.MyViewHolder>() {
 

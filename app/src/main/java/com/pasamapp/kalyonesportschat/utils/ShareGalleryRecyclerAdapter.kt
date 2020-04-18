@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.tek_sutun_grid_resim.view.*
 import org.greenrobot.eventbus.EventBus
 
 /**
- * Created by Emre on 3.06.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class ShareGalleryRecyclerAdapter(var klasordekiDosyalar:ArrayList<String>, var myContext:Context): androidx.recyclerview.widget.RecyclerView.Adapter<ShareGalleryRecyclerAdapter.MyViewHolder>() {
 

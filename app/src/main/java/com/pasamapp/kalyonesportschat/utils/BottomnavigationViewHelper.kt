@@ -14,7 +14,7 @@ import com.pasamapp.kalyonesportschat.Share.ShareActivity
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
 
 /**
- * Created by Emre on 25.02.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class BottomnavigationViewHelper {
 

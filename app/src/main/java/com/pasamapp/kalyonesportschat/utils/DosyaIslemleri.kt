@@ -17,7 +17,7 @@ import java.util.*
 import kotlin.Comparator
 
 /**
- * Created by Emre on 24.05.2018.
+ * Created by Pasam on 18.04.2020.
  */
 class DosyaIslemleri {
 
