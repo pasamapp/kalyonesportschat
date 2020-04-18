@@ -27,7 +27,7 @@
         <activity
             android:name="com.pasamapp.kalyonesportschat$Home.HomeActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait">
+            android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name=".HomeActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -36,31 +36,31 @@
         <activity
             android:name="com.pasamapp.kalyonesportschat$News.NewsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.pasamapp.kalyonesportschat$Profile.ProfileActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.pasamapp.kalyonesportschat$Search.SearchActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.pasamapp.kalyonesportschat$Share.ShareActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.pasamapp.kalyonesportschat$Profile.ProfileSettingsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.pasamapp.kalyonesportschat$Login.LoginActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.pasamapp.kalyonesportschat$Login.RegisterActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait">
+            android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -70,18 +70,19 @@
         <activity
             android:name="com$pasamapp.kalyonesportschat.Search.AlgoliaSearchActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.pasamapp.kalyonesportschat$Generic.UserProfileActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.pasamapp.kalyonesportschat$Home.AlgolisSearchMesajActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity android:name="com.pasamapp.kalyonesportschat$Home.ChatActivity"/>
 
-        <service android:name="com.pasamapp.kalyonesportschat$Services.MyFirebaseMessagingService">
+        <service android:name="com.pasamapp.kalyonesportschat$Services.MyFirebaseMessagingService"
+            android:permission="TODO">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

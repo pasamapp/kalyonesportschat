@@ -7,11 +7,11 @@ apply plugin: 'kotlin-android-extensions'
 android {
     signingConfigs {
     }
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
         applicationId "com.pasamapp.kalyonesportschat"
         minSdkVersion 19
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 6
         versionName "6.0"
         multiDexEnabled true
@@ -78,7 +78,7 @@ dependencies {
     // optional
     //sayfa pull or refresh
     implementation 'com.dinuscxj:recyclerrefreshlayout:2.0.5'
-    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:design:29.0.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
