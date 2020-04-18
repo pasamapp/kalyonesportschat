@@ -9,10 +9,10 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
-        android:name="com.pasamapp.kalyonesportschat.VideoRecyclerView.view.App"
+        android:name="com.pasamapp.kalyonesportschat$VideoRecyclerView.view.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="kalyonesportschat"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -25,7 +25,7 @@
             android:resource="@color/mavi" />
 
         <activity
-            android:name="com.pasamapp.kalyonesportschat.Home.HomeActivity"
+            android:name="com.pasamapp.kalyonesportschat$Home.HomeActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -34,31 +34,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pasamapp.kalyonesportschat.News.NewsActivity"
+            android:name="com.pasamapp.kalyonesportschat$News.NewsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pasamapp.kalyonesportschat.Profile.ProfileActivity"
+            android:name="com.pasamapp.kalyonesportschat$Profile.ProfileActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pasamapp.kalyonesportschat.Search.SearchActivity"
+            android:name="com.pasamapp.kalyonesportschat$Search.SearchActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pasamapp.kalyonesportschat.Share.ShareActivity"
+            android:name="com.pasamapp.kalyonesportschat$Share.ShareActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pasamapp.kalyonesportschat.Profile.ProfileSettingsActivity"
+            android:name="com.pasamapp.kalyonesportschat$Profile.ProfileSettingsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pasamapp.kalyonesportschat.Login.LoginActivity"
+            android:name="com.pasamapp.kalyonesportschat$Login.LoginActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pasamapp.kalyonesportschat.Login.RegisterActivity"
+            android:name="com.pasamapp.kalyonesportschat$Login.RegisterActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -68,20 +68,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pasamapp.kalyonesportschat.Search.AlgoliaSearchActivity"
+            android:name="com$pasamapp.kalyonesportschat.Search.AlgoliaSearchActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pasamapp.kalyonesportschat.Generic.UserProfileActivity"
+            android:name="com.pasamapp.kalyonesportschat$Generic.UserProfileActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pasamapp.kalyonesportschat.Home.AlgolisSearchMesajActivity"
+            android:name="com.pasamapp.kalyonesportschat$Home.AlgolisSearchMesajActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait" />
-        <activity android:name="com.pasamapp.kalyonesportschat.Home.ChatActivity"></activity>
+        <activity android:name="com.pasamapp.kalyonesportschat$Home.ChatActivity"/>
 
-        <service android:name="com.pasamapp.kalyonesportschat.Services.MyFirebaseMessagingService">
+        <service android:name="com.pasamapp.kalyonesportschat$Services.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
