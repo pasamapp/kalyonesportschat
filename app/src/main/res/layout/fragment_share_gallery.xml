@@ -1,0 +1,132 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@color/toolbar_color"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:contentInsetStart="0dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imgClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_close"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvIleriButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="İleri"
+                android:textColor="@color/mavi"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgClose"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imgClose" />
+
+            <Spinner
+                android:id="@+id/spnKlasorAdlari"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgClose"
+                app:layout_constraintStart_toEndOf="@+id/imgClose"
+                app:layout_constraintTop_toTopOf="@+id/imgClose" />
+
+            <View
+                android:id="@+id/golgelik"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/golgelik"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></View>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintlayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar4">
+
+        <FrameLayout
+            android:id="@+id/imgBuyukResim"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.75"
+            app:layout_constraintBottom_toTopOf="@+id/recyclerViewDosyalar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
+
+            <com.naver.android.helloyako.imagecrop.view.ImageCropView xmlns:imagecrop="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imgCropView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="matrix"
+                android:visibility="visible"
+                imagecrop:gridInnerColor="#ffffff"
+                imagecrop:gridInnerStroke="1.5dp"
+                imagecrop:gridLeftRightMargin="0dp"
+                imagecrop:gridTopBottomMargin="0dp"
+                imagecrop:setInnerGridMode="on" />
+
+            <com.universalvideoview.UniversalVideoView
+                android:id="@+id/videoView"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:uvv_autoRotation="true"
+                app:uvv_fitXY="true" />
+
+
+
+        </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewDosyalar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.25"
+            android:gravity="center"
+            android:verticalSpacing="1dp"
+            android:horizontalSpacing="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgBuyukResim" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
