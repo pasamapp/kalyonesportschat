@@ -9,10 +9,10 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
-    "algolia-firebase-functions": "^2.0.0",
+    "algolia-firebase-functions": "^5.0.0",
     "algoliasearch": "^3.29.0",
-    "firebase-admin": "~5.12.1",
-    "firebase-functions": "^1.0.3"
+    "firebase-admin": "~11.4.1",
+    "firebase-functions": "^4.1.1"
   },
   "private": true
 }
